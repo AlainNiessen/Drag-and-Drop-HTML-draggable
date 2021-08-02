@@ -4,7 +4,6 @@ $(function () {
     let rectangle = $('#rect');
     let cercle = $('#cercle');
     let message = $('#message');  
-    let instruction = $('#instruction');
 
     //DEFINITION POSITION CERCLE
     let coordCercle = cercle.offset();
@@ -27,7 +26,6 @@ $(function () {
             coordCercle.top = e.clientY - startY;
         },
         'dragend': () => {
-            instruction.hide('fast');
             //définition nouvelle position cercle
             cercle.offset(coordCercle);
         },        

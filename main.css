@@ -53,19 +53,6 @@ html {
     font-size: .9rem;
 }
 
-#instruction {
-    position: absolute;
-    top: 5rem;
-    left: 50%;
-    transform: translate(-50%);       
-    height: 5rem;    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: .9rem;
-    padding: 0 2rem;
-}
-
 .success {
     border: .1rem solid black;
     border-radius: 5rem;
