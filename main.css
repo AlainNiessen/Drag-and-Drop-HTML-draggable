@@ -2,6 +2,11 @@ html {
     font-size : 16px;
 }
 
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
 
 .rect {
     width: 30rem;
@@ -46,7 +51,7 @@ html {
     top: 5rem;
     left: 50%;
     transform: translate(-50%);       
-    height: 5rem;    
+    height: 3rem;    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,16 +60,16 @@ html {
 
 .success {
     border: .1rem solid black;
-    border-radius: 5rem;
+    border-radius: 1rem;
     background-color: rgb(153, 255, 153);
-    padding: 0 2rem;
+    padding: 0 1rem;
 }
 
 .error {
     border: .1rem solid black;
-    border-radius: 5rem;
+    border-radius: 1rem;
     background-color: rgb(255, 155, 155);
-    padding: 0 2rem
+    padding: 0 1rem
 }
 
 
